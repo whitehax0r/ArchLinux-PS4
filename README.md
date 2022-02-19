@@ -21,6 +21,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - LightDM with autologin enabled window manager.
 - Neofetch - Show general information about this system.
 - Latest PS4 Drivers from oficial repo.
+- XFCE - Desktop Environment.
 - Steam - The ultimate destination for playing, discussing, and creating games.
 - ExFat file system support.
 - Bluez - For bluetooth pairing PS4 controller.
