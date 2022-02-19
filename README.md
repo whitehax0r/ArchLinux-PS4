@@ -100,7 +100,7 @@ For example:
 
 >__# timedatectl set-time "2022-02-19 13:13:54"__
 
-Not sure why but every time you boot in to linux, you have to set to unpair and pair again your PS4 controller in every boot.
+Not sure why but every time you boot in to linux, you have to unpair and pair again your PS4 controller.
 
 # Social Medias
 
