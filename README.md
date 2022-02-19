@@ -71,9 +71,14 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - The total of 4 files should be on the root of your USB 3.0 Device bzImage, the initramfs.cpio.gz, bootargs.txt and arch.tar.xz or psxitarch.tar.xz.
 - Open the PS4 web browser and first jailbreak your PS4 with Al-Azif [host](https://cthugha.exploit.menu/#PS4%20(9.00))follow the instructions on the website.
 - Launch the 1GB Linux payload using the one of your trust host but I recommend to you to use this [one](https://sleirsgoevy.github.io/900-host/)from [Sleirsgoevy](https://github.com/sleirsgoevy) because this one detects the bootargs.txt file to avoid black screen issues. __I tried with other host but did not detect the bootargs.txt file.__
-- When rescushell start run:
->__exec install-psxitarch.sh__ and wait
--(if you use the initramfs.cpio.gz from Nazky run >__exec install-arch.sh__) and wait.
+- When you are on the rescushell type the following commands:
+>__exec install-psxitarch.sh__
+- :warning: If you use the initramfs.cpio.gz from Nazky type the following commands: :warning:
+>__exec install-arch.sh__
+- When the installation is done the OS is going to boot automatically, if not type the following command:
+>__exec start-psxitarch.sh
+-  :warning: If you use the initramfs.cpio.gz from Nazky type the following commands: :warning:
+>__exec start-arch.sh
 
 # TODO LIST
 
