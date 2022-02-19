@@ -1,1 +1,0 @@
-drm.edid_firmware=edid/1920x1080.bin
