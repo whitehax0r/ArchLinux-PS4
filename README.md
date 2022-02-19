@@ -79,7 +79,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 >__exec install-arch.sh__
 - When the installation is done ArchLinux-PS4 is going to boot automatically, if not type the following command:
 >__exec start-psxitarch.sh__
--  :warning: If you use the initramfs.cpio.gz from Nazky type the following commands: :warning:
+-  :warning: __If you use the initramfs.cpio.gz from Nazky type the following commands:__ :warning:
 >__exec start-arch.sh__
 
 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
