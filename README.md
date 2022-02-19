@@ -14,6 +14,8 @@ First Github project, proudly made by a latino catracho 🤠
 
 This is a compiled and updated Arch linux with some minor personal changes more related to GUI to look better and included emulators.
 
+![neofetch](https://github.com/whitehax0r/ArchLinux-PS4/blob/4c8010140ee8e5f8d68b1d623464d555706d2f8d/neofetch.png)
+
 # Features
 
 - Parallel Downloads enabled.
