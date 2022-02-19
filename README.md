@@ -72,7 +72,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - Open the PS4 web browser and first jailbreak your PS4 with Al-Azif [host](https://cthugha.exploit.menu/#PS4%20(9.00)) follow the instructions on the website.
 - Launch the 1GB Linux payload using the one of your trust host but I recommend to you to use this [one](https://sleirsgoevy.github.io/900-host/) from [Sleirsgoevy](https://github.com/sleirsgoevy) because this one detects the bootargs.txt file to avoid black screen issues. __I tried with other host but did not detect the bootargs.txt file.__
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 - When you are on the rescushell type the following commands:
 >__exec install-psxitarch.sh__
 - :warning: If you use the initramfs.cpio.gz from Nazky type the following commands: :warning:
@@ -82,7 +82,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 -  :warning: __If you use the initramfs.cpio.gz from Nazky type the following commands:__ :warning:
 >__exec start-arch.sh__
 
-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # TODO LIST
 
