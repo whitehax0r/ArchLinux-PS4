@@ -8,7 +8,7 @@ whitehax0r/whitehax0r is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
-First Github project, I'm just sharing useful information for those enthusiast like me, who like to try abd learn more things.
+First Github project, proudly made by a latino catracho :cowboy:
 
 # ArchLinux-PS4
 
@@ -54,9 +54,9 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 ## If you have same PS4 hardware as me you can use these files from below:
 
-- [bootargs.txt] MD5 >__C84AD779CE76762C04CBF80E420E324D__
-- [initramfs.cpio.gz] MD5 >__951549B1DEB59DAE3ADA8038461BADD2__
-- [bzImage] MD5 >__B8BDDA64FDED673D1FD8017C2A4B4122__
+- [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) MD5 >__C84AD779CE76762C04CBF80E420E324D__
+- [initramfs.cpio.gz](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/initramfs.cpio.gz) MD5 >__951549B1DEB59DAE3ADA8038461BADD2__
+- [bzImage](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bzImage) MD5 >__B8BDDA64FDED673D1FD8017C2A4B4122__
 - [arch.tar.xz] MD5 >__7A997C14B2FAD0C839107A07C69FC312__
 
 
