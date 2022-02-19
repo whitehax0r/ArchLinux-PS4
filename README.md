@@ -8,7 +8,7 @@ whitehax0r/whitehax0r is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
-First Github project, proudly made by a latino catracho :cowboy:
+First Github project, proudly made by a latino catracho 🤠
 
 # ArchLinux-PS4
 
