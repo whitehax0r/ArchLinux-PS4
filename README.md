@@ -84,13 +84,13 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# TODO LIST
+# TODO List
 
 - RPCS3 emulator - PS3 emulator. (You can try with the AppImage in their [website.](https://rpcs3.net/download))
 - ProtonDB play windows games on linux.
 - Nothing more, you tell me.
 
-# KNOW ISSUES
+# Know Issues
 
 Not sure why but every time you boot in to linux, you have to set your current time and date, just type the following commands on terminal as root: 
 
