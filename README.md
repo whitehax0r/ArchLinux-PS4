@@ -60,16 +60,20 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - [bzImage](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bzImage) MD5 >__B8BDDA64FDED673D1FD8017C2A4B4122__
 - [arch.tar.xz](https://mega.nz/file/6ro0mZqb#uzVI3PjhxZ7m5hk4EC2AxCIg5B8h87mqEuvUEzo20Oo) MD5 >__7A997C14B2FAD0C839107A07C69FC312__
 
-# Preparing your USB 3.0 device for ArchLinux-PS4
+# Preparing your USB 3.0 Device for ArchLinux-PS4
 
 :warning: Highly recommeded to use a USE A >=16GB USB 3.0 Device :warning:
 
-- Format the USB 3.0 device to Fat32 filesystem.
+- Format the USB 3.0 Device to Fat32 filesystem.
 - Copy and paste the bzImage, the initramfs.cpio.gz, bootargs.txt and arch.tar.xz files to the root of the USB 3.0 Device.
 - :warning: If you use the same initramfs.cpio.gz from my Github, this one is created by Nazky, the name of this OS should be arch.tar.xz :warning:
 - :warning: __If you use the initramfs.cpio.gz from psxita team, you should rename this file arch.tar.xz to psxitarch.tar.xz__ :warning:
 - The total of 4 files should be on the root of your USB 3.0 Device bzImage, the initramfs.cpio.gz, bootargs.txt and arch.tar.xz or psxitarch.tar.xz.
-- Launch the 1GB Linux payload using one of the trusted host in the list below. I recommend to use this [one](https://sleirsgoevy.github.io/900-host/) because detects the bootargs.txt file to avoid black screen issues. I tried with other host but did not detect the bootargs.txt file.
+- Open the PS4 web browser and first jailbreak your PS4 with Al-Azif [host](https://cthugha.exploit.menu/#PS4%20(9.00))follow the instructions on the website.
+- Launch the 1GB Linux payload using the one of your trust host but I recommend to you to use this [one](https://sleirsgoevy.github.io/900-host/)from [Sleirsgoevy](https://github.com/sleirsgoevy) because this one detects the bootargs.txt file to avoid black screen issues. __I tried with other host but did not detect the bootargs.txt file.__
+- When rescushell start run:
+>__exec install-psxitarch.sh__ and wait
+-(if you use the initramfs.cpio.gz from Nazky run >__exec install-arch.sh__) and wait.
 
 # TODO LIST
 
