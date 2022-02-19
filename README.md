@@ -84,7 +84,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 :warning: Highly recommeded to use a USE A >=16GB USB 3.0 Device :warning:
 
-- Format the USB 3.0 Device to Fat32 filesystem.
+- Format the USB 3.0 Device to Fat32 filesystem. You can use this [software](http://ridgecrop.co.uk/index.htm?guiformat.html)
 - Copy and paste the bzImage, the initramfs.cpio.gz, bootargs.txt and arch.tar.xz files to the root of the USB 3.0 Device.
 - :warning: If you use the same initramfs.cpio.gz from my Github, this one is created by Nazky, the name of this OS should be arch.tar.xz :warning:
 - :warning: __If you use the initramfs.cpio.gz from psxita team, you should rename this file arch.tar.xz to psxitarch.tar.xz__ :warning:
@@ -127,6 +127,14 @@ Not sure why but every time you boot in to linux, you have to unpair and pair ag
 
 ## Got black screen
 Make sure your display is compatible with the 1080p resolution, if you still have a black screen try a others monitor or TV.
+
+## I want to uninstall this OS from my USB 3.0 Device
+Just format your device.
+
+## How to update ArchLinux-PS4?
+Just type the following command:
+>__sudo pacman -Syyu__
+- and type "Yes" if there are packages with updates.
 
 # Social Media
 
