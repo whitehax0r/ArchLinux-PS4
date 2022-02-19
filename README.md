@@ -1,4 +1,4 @@
- 👋 Hi, I’m @whitehax0r
+ 👋 Hi, I’m @whitehax0r also know as (razr2312) on Twitter
 - 👀 I’m interested to share my little knowledge to this greatest community, my native language is Spanish but also speak English.
 - 🌱 I’m currently learning cybersecurity as part of the red team those are more focused to attack and break the matrix xD.
 - 💞️ I’m looking to collaborate on PS4 linux community and other interest stuff.
@@ -81,7 +81,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 >__exec start-psxitarch.sh__
 -  :warning: If you use the initramfs.cpio.gz from Nazky type the following commands: :warning:
 >__exec start-arch.sh__
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # TODO LIST
 
