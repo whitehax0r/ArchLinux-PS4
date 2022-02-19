@@ -81,7 +81,8 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 >__exec start-psxitarch.sh__
 -  :warning: If you use the initramfs.cpio.gz from Nazky type the following commands: :warning:
 >__exec start-arch.sh__
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # TODO LIST
 
