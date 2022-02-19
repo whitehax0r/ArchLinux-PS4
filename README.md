@@ -84,9 +84,10 @@ Not sure why but every time you boot in to linux, you have to set to unpair and 
 - You can follow me on [Twitter](https://twitter.com/razr2312)
 - You can follow me on [YouTube](https://www.youtube.com/user/allank2312/videos)
 
-<!---
-![esta es una imagen](https://github.com/whitehax0r/ArchLinux-PS4/blob/d68630ff3070fe6d86db3793f12937f1e23856b8/Capture.PNG)
+![esta es una imagen](https://github.com/whitehax0r/ArchLinux-PS4/blob/353059a5bbb0a7f161ade53a56e374a6398d7c6a/Flag.png)
 
+<!---
 This information wouldn't be possible and I have to thanks to @Nazky @SpecterDev @failoverfl0w @theflow @chendochap @AlAzzif, etc.
+--->
 
 
