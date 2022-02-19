@@ -16,6 +16,12 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 ![neofetch](https://github.com/whitehax0r/ArchLinux-PS4/blob/4c8010140ee8e5f8d68b1d623464d555706d2f8d/neofetch.png)
 
+![lscpi](https://github.com/whitehax0r/ArchLinux-PS4/blob/883347d1f54bdcb4b2fc1828fcb714c84158b72d/lspci.png)
+
+![glxinfo](https://github.com/whitehax0r/ArchLinux-PS4/blob/883347d1f54bdcb4b2fc1828fcb714c84158b72d/glxinfo.png)
+
+![desktop2](https://github.com/whitehax0r/ArchLinux-PS4/blob/883347d1f54bdcb4b2fc1828fcb714c84158b72d/Desktop2.png)
+
 # Features
 
 - Parallel Downloads enabled.
@@ -64,7 +70,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 # Preparing your PS4 system.
 
-- Make sure your are on firmware 9.00.
+- Make sure you are on firmware 9.00.
 - Go to Settings>Sound and Screen>Video output Settings>
 - Resolution set to >__1080p__
 - RGB range se to >__Full__
@@ -107,7 +113,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 # Know Issues
 
-Not sure why but every time you boot in to linux, you have to set your current time and date, just type the following commands on terminal as root: 
+Not sure why but every time you boot in to Linux, you have to set your current time and date, just type the following commands on terminal as root: 
 
 >__# timedatectl set-time "yyyy-MM-dd hh:mm:ss"__
 
@@ -122,7 +128,7 @@ Not sure why but every time you boot in to linux, you have to unpair and pair ag
 ## Got black screen
 Make sure your display is compatible with the 1080p resolution, if you still have a black screen try a others monitor or TV.
 
-# Social Medias
+# Social Media
 
 - You can follow me on [Twitter](https://twitter.com/razr2312)
 - You can follow me on [YouTube](https://www.youtube.com/user/allank2312/videos)
