@@ -16,7 +16,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 # Features
 
-- Parralel Downloads enabled.
+- Parallel Downloads enabled.
 - PS4 repository enabled.
 - LightDM with autologin enabled window manager.
 - Neofetch - Show general information about this system.
