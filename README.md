@@ -82,7 +82,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 -  :warning: __If you use the initramfs.cpio.gz from Nazky type the following commands:__ :warning:
 >__exec start-arch.sh__
 
-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # TODO List
 
