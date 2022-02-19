@@ -60,6 +60,18 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - [bzImage](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bzImage) MD5 >__B8BDDA64FDED673D1FD8017C2A4B4122__
 - [arch.tar.xz](https://mega.nz/file/6ro0mZqb#uzVI3PjhxZ7m5hk4EC2AxCIg5B8h87mqEuvUEzo20Oo) MD5 >__7A997C14B2FAD0C839107A07C69FC312__
 
+# Preparing your PS4 system.
+
+- Make sure your are on firmware 9.00.
+- Go to Settings>Sound and Screen>Video output Settings>
+- Resolution set to >__1080p__
+- RGB range se to >__Full__
+- HDR set to >__Off__
+- Deep color output set to >__Off__
+- Then go to Setting>System>
+- Uncheck the box "Enable HDMI Device Link"
+- Uncheck the box "Enable HDCP"
+
 # Preparing your USB 3.0 Device for ArchLinux-PS4
 
 :warning: Highly recommeded to use a USE A >=16GB USB 3.0 Device :warning:
@@ -70,6 +82,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - :warning: __If you use the initramfs.cpio.gz from psxita team, you should rename this file arch.tar.xz to psxitarch.tar.xz__ :warning:
 - The total of 4 files should be on the root of your USB 3.0 Device bzImage, the initramfs.cpio.gz, bootargs.txt and arch.tar.xz or psxitarch.tar.xz.
 - Open the PS4 web browser and first jailbreak your PS4 with Al-Azif [host](https://cthugha.exploit.menu/#PS4%20(9.00)) follow the instructions on the website.
+- Then connect your USB 3.0 Device with all the needed files on your PS4, make sure to connect to the USB slot that is near from your PS4 Blue-ray Disc Drive.
 - Launch the 1GB Linux payload using the one of your trust host but I recommend to you to use this [one](https://sleirsgoevy.github.io/900-host/) from [Sleirsgoevy](https://github.com/sleirsgoevy) because this one detects the bootargs.txt file to avoid black screen issues. __I tried with other host but did not detect the bootargs.txt file.__
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -101,6 +114,11 @@ For example:
 >__# timedatectl set-time "2022-02-19 13:13:54"__
 
 Not sure why but every time you boot in to linux, you have to unpair and pair again your PS4 controller.
+
+# FAQs
+
+## Got black screen
+Make sure your display is compatible with the 1080p resolution, if you still have a black screen try a others monitor or TV.
 
 # Social Medias
 
