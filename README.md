@@ -178,6 +178,7 @@ Well you can download those files from Hakkuraifu [Github.](https://github.com/H
 
 - You can follow me on [Twitter](https://twitter.com/razr2312)
 - You can follow me on [YouTube](https://www.youtube.com/user/allank2312/videos)
+- You can follow me on [Reddit](https://www.reddit.com/user/razr2312/)
 
 ![esta es una imagen](https://github.com/whitehax0r/ArchLinux-PS4/blob/353059a5bbb0a7f161ade53a56e374a6398d7c6a/Flag.png)
 
