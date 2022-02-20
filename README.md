@@ -161,3 +161,20 @@ Well you can download those files from Hakkuraifu [Github.](https://github.com/H
 
 ![esta es una imagen](https://github.com/whitehax0r/ArchLinux-PS4/blob/353059a5bbb0a7f161ade53a56e374a6398d7c6a/Flag.png)
 
+## Credits
+
+Many thanks to:
+- @theflow0
+- @notzecoxao
+- @fail0verflow 
+- @_AlAzif
+- @Znullptr
+- @SpecterDev
+- @sleirsgoevy
+- @ps4_hacking
+- @frwololo
+- @ChendoChap
+- @Ps3ita_Team
+- @NazkyYT
+- @GBAtemp
+
