@@ -14,7 +14,7 @@ Esta es una version compilada y actualizada del sistema operativeo Arch Linux co
 
 ![desktop2](https://github.com/whitehax0r/ArchLinux-PS4/blob/883347d1f54bdcb4b2fc1828fcb714c84158b72d/Desktop2.png)
 
-# Caracteristicas en este sistema operativo.
+# Caracteristicas en este sistema operativo
 
 - Descargas paralelas habilitado.
 - Repositorio de PS4 hablitiado.
@@ -63,7 +63,7 @@ Un cerebro xD y mucha paciencia.
 - [bzImage](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bzImage) MD5 >__B8BDDA64FDED673D1FD8017C2A4B4122__
 - [arch.tar.xz](https://mega.nz/file/6ro0mZqb#uzVI3PjhxZ7m5hk4EC2AxCIg5B8h87mqEuvUEzo20Oo) MD5 >__7A997C14B2FAD0C839107A07C69FC312__
 
-# Preparando tu sisteam de PS4.
+# Preparando tu sisteam de PS4
 
 - Asegurate que tienes primero tu sisteam operativo con sistema operativo 9.00.
 - Ve a Ajustes>Sonido y pantalla>Ajustes de salida de video>
@@ -117,7 +117,7 @@ Si ver un error como este: "mount -o ro /newroot failed" solo escribe los siguie
 - >__exec start-psxitarch.sh__ ⚠️Si estas usando otro fichero initramsfs.cpio.gz ⚠️
 - y deberia de arrancar sin problemas :)
 
-# Cosas por incluir.
+# Cosas por incluir
 
 - RPCS3 emulator - Emuladr de PS3. (Puedes probar el AppImage que esta en la [website.](https://rpcs3.net/download)) oficial.
 - ProtonDB programa para jugar juegos de PC en Linux.
