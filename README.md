@@ -1,6 +1,6 @@
- 👋 Hi, I’m @whitehax0r also know as (razr2312) on Twitter
-- 👀 I’m interested to share my little knowledge to this greatest community, my native language is Spanish but also speak English.
-- 🌱 I’m currently learning cybersecurity as part of the red team those are more focused to attack and break the matrix xD.
+ 👋 Hi, I’m @whitehax0r a.k.a (razr2312) on Twitter
+- 👀 I’m interested to share my little knowledge to this greatest community, my native language is Spanish but also speak English as well.
+- 🌱 I’m currently learning cybersecurity as part of the Red Team those are more focused to attack and break the matrix xD.
 - 💞️ I’m looking to collaborate on PS4 linux community and other interest stuff.
 - 📫 How to reach me at the end of this file.
 <!---
@@ -8,7 +8,7 @@ whitehax0r/whitehax0r is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
-First Github project, proudly made by a latino catracho 🤠
+First Github project, proudly made by a Latino catracho 🤠
 
 # ArchLinux-PS4
 
@@ -54,6 +54,9 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - P7zip - Commandline 7zip support for Linux.
 - Htop - See process and other stuff.
 
+# Mandatory requirements
+A brain xD and a lot of patience.
+
 # My PS4 Hardware
 
 - PS4 Slim
@@ -84,7 +87,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 
 :warning: Highly recommeded to use a USE A >=16GB USB 3.0 Device :warning:
 
-- Format the USB 3.0 Device to Fat32 filesystem. You can use this [software](http://ridgecrop.co.uk/index.htm?guiformat.html)
+- Format the USB 3.0 Device to Fat32 filesystem. You can use this [software.](http://ridgecrop.co.uk/index.htm?guiformat.html)
 - Copy and paste the bzImage, the initramfs.cpio.gz, bootargs.txt and arch.tar.xz files to the root of the USB 3.0 Device.
 - :warning: If you use the same initramfs.cpio.gz from my Github, this one is created by Nazky, the name of this OS should be arch.tar.xz :warning:
 - :warning: __If you use the initramfs.cpio.gz from psxita team, you should rename this file arch.tar.xz to psxitarch.tar.xz__ :warning:
@@ -123,7 +126,7 @@ For example:
 
 Not sure why but every time you boot in to linux, you have to unpair and pair again your PS4 controller.
 
-# FAQs
+# Some FAQs
 
 ## Got black screen
 Make sure your display is compatible with the 1080p resolution, if you still have a black screen try a others monitor or TV.
@@ -136,15 +139,22 @@ Just type the following command:
 >__sudo pacman -Syyu__
 - and type "Yes" if there are packages with updates.
 
+## Can I use my DS4 controller as mouse?
+Yes!, you can use the touchpad of your DS4 controller.
+
+## I have difficulties to connect my DS4 controller, what can I do?
+
+
+## I'm not sure about my PS4 Hardware?
+You can search [here](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) or [here.](https://www.psdevwiki.com/ps4/)
+
+## Where I can find those PS4 kernels and initramfs.cpio.gz for other PS4's hardware.
+Well you can download those files from Hakkuraifu [Github.](https://github.com/Hakkuraifu/PS4Linux-Documentation)
+
 # Social Media
 
 - You can follow me on [Twitter](https://twitter.com/razr2312)
 - You can follow me on [YouTube](https://www.youtube.com/user/allank2312/videos)
 
 ![esta es una imagen](https://github.com/whitehax0r/ArchLinux-PS4/blob/353059a5bbb0a7f161ade53a56e374a6398d7c6a/Flag.png)
-
-<!---
-This information wouldn't be possible and I have to thanks to @Nazky @SpecterDev @failoverfl0w @theflow @chendochap @AlAzzif, etc.
---->
-
 
