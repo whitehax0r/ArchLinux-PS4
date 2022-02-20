@@ -128,6 +128,9 @@ Not sure why but every time you boot in to linux, you have to unpair and pair ag
 
 # Some FAQs
 
+## What is the password for user Sony and root?
+You can find that on the Desktop, you will see a text fille called Important.txt
+
 ## Got black screen
 Make sure your display is compatible with the 1080p resolution, if you still have a black screen try a others monitor or TV.
 
