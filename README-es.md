@@ -170,6 +170,7 @@ Puedes descargar estos fichero del repositorio de [Hakkuraifu.](https://github.c
 
 - Me puedes seguir en [Twitter](https://twitter.com/razr2312)
 - Me puedes seguir en [YouTube](https://www.youtube.com/user/allank2312/videos)
+- Me puedes seguir en [Reddit](https://www.reddit.com/user/razr2312/)
 
 ![esta es una imagen](https://github.com/whitehax0r/ArchLinux-PS4/blob/353059a5bbb0a7f161ade53a56e374a6398d7c6a/Flag.png)
 
