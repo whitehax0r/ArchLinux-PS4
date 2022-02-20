@@ -86,7 +86,7 @@ Un cerebro xD y mucha paciencia.
 - Copia y pega el fichero bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz a la raiz de tu USB/Discoduro 3.0.
 - :warning: Si estas usando el initramfs.cpio.gz de mi Github, este es creado por Nazky, el nombre de este sistema operativo deberia ser arch.tar.xz :warning:
 - :warning: __Si estas usando el initramfs.cpio.gz del psxita team, deberias de renombrar este fichero de arch.tar.xz a psxitarch.tar.xz__ :warning:
-- El total de 4 ficheros deberian de estar en la razi de tu USB/Discoduro 3.0 bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz o psxitarch.tar.xz.
+- El total de 4 ficheros deberian de estar en la raiz de tu USB/Discoduro 3.0 bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz o psxitarch.tar.xz.
 - Abre el navegador web del PS4 y primero has el Jailbreak a tu PS4 con el Host de [Al-Azif.](https://cthugha.exploit.menu/#PS4%20(9.00))
 - Despues conecta tu USB/Discoduro 3.0 con todos los archivos necesarios dentro en la raiz, asegurate de conectar tu USB/Discoduro en el puerto USB que esta mas cercano a la lectora de discos del PS4.
 - Selecciona y arranca el payload 1GB Linux usando el host de tu confianza pero te recomiendo que uses [este](https://sleirsgoevy.github.io/900-host/) de [Sleirsgoevy](https://github.com/sleirsgoevy) porque este detecta el fichero bootargs.txt para evitar el problema de pantalla negrra. __He intentando varios host y ninguno detecta el fichero bootargs.txt.__
