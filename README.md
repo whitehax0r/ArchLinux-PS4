@@ -143,7 +143,7 @@ Just type the following command:
 Yes!, you can use the touchpad of your DS4 controller.
 
 ## I have difficulties to connect my DS4 controller, what can I do?
-
+I will upload a video later.
 
 ## I'm not sure about my PS4 Hardware?
 You can search [here](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) or [here.](https://www.psdevwiki.com/ps4/)
