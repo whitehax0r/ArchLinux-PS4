@@ -75,9 +75,9 @@ Un cerebro xD y mucha paciencia.
 - Desmarca la cajita "Activar enlace del dispositivo HDMI"
 - Desmarca la cajita "Activar HDCP"
 
-# Preparando tu dispositivo de interfaz 3.0 para ArchLinux-PS4
+# Preparando tu USB|HDD|SDD 3.0 para ArchLinux-PS4
 
-:warning: Altamente recomendable que uses un disco duro o USB >=16GB :warning:
+:warning: Altamente recomendable que uses un USB|HDD|SDD 3.0 >=16GB :warning:
 
 - Formatea el USB/Discoduro 3.0 a formato Fat32. Puedes utilizar este [software.](http://ridgecrop.co.uk/index.htm?guiformat.html)
 - Copia y pega el fichero bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz a la raiz de tu USB/Discoduro 3.0.
@@ -99,6 +99,23 @@ Un cerebro xD y mucha paciencia.
 >__exec start-arch.sh__
 
 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Pasos post instalacion
+
+- Conecta tu USB|HDD|SDD 3.0 a una computadora y copia de nuevo el fichero [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) en la raiz de tu USB|HDD|SDD en a particion Fat32.
+- Haz Jailbreak a tu PS4 co el host de [Al-Azif](https://cthugha.exploit.menu/#PS4%20(9.00)) o [este.](https://ithaqua.exploit.menu/#PS4%(9.00))
+- Ahora puede seleccionar el payload de 3 GB del host de [Sleirsgoevy](https://sleirsgoevy.github.io/900-host/)
+- Veras de nuevo el rescueshell, solo escribe los siguientes comandos:
+>__exec start-psxitarch.sh__
+-  :warning: __Si estas usando el initramfs.cpio.gz de Nazky, solo escribe los siguientes comandos:__ :warning:
+>__exec start-arch.sh__
+
+Si ver un error como este: "mount -o ro /newroot failed" solo escribe los siguientes comandos:
+>__mount -o ro /newroot__
+- despues:
+>__exec start-arch.sh__  ⚠️Si estas usando el fichero initramfs.cpio.gz de Nazky ⚠️
+- >__exec start-psxitarch.sh__ ⚠️Si estas usando otro fichero initramsfs.cpio.gz ⚠️
+- y deberia de arrancar sin problemas :)
 
 # Cosas por incluir.
 
