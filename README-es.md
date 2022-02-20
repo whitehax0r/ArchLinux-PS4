@@ -105,8 +105,8 @@ Un cerebro xD y mucha paciencia.
 
 # Pasos post instalacion
 
-- Conecta tu USB|HDD|SDD 3.0 a una computadora y copia de nuevo el fichero [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) en la raiz de tu USB|HDD|SDD en a particion Fat32.
-- Haz Jailbreak a tu PS4 co el host de [Al-Azif](https://cthugha.exploit.menu/#PS4%20(9.00)) o [este.](https://ithaqua.exploit.menu/#PS4%(9.00))
+- Conecta tu USB|HDD|SDD 3.0 a una computadora y copia de nuevo el fichero [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) en la raiz de tu USB|HDD|SDD en la particion Fat32.
+- Haz Jailbreak a tu PS4 con el host de [Al-Azif](https://cthugha.exploit.menu/#PS4%20(9.00)) o [este.](https://ithaqua.exploit.menu/#PS4%(9.00))
 - Ahora puede seleccionar el payload de 3 GB del host de [Sleirsgoevy](https://sleirsgoevy.github.io/900-host/)
 - Veras de nuevo el rescueshell, solo escribe los siguientes comandos:
 >__exec start-psxitarch.sh__
