@@ -1,13 +1,13 @@
 - 👋 Hola, soy @whitehax0r tambien conocido como (razr2312) en Twitter
 - 👀 Estoy interesado en compartir mi pequeño conocimiento a esta gran comunidad, hablo dos idiomas español y ingles.
-- 🌱 Actualmente estudiando por mis mismo ciberseguridad para ser miembro parte del Red Team que estan mas enfocados a ataque y romper la matrix xD.
-- 📫 Como contactarme, al final de este documentacion lo encontraras.
+- 🌱 Actualmente estudiando por mi mismo ciberseguridad para ser miembro parte del Red Team que estan mas enfocados a ataque y romper la matrix xD.
+- 📫 Como contactarme, al final de esta documentacion lo encontraras.
 
-Primer Projecto de Github, orgullosamente Catracho 🤠
+Primer Proyecto de Github, orgullosamente Catracho 🤠
 
 # ArchLinux-PS4
 
-Esta es una version compilada y actualizada del sistema operativeo Arch Linux con algunos retoques personales en la interfaz grafica de usuario para que se vea mejor and alguno emuladores integrados.
+Esta es una version compilada y actualizada del sistema operativo Arch Linux con algunos retoques personales en la interfaz grafica de usuario para que se vea mejor y algunos emuladores integrados.
 
 ![neofetch](https://github.com/whitehax0r/ArchLinux-PS4/blob/4c8010140ee8e5f8d68b1d623464d555706d2f8d/neofetch.png)
 
@@ -26,11 +26,11 @@ Esta es una version compilada y actualizada del sistema operativeo Arch Linux co
 - Ultimos Driver de PS4 directamente del repositorio oficial.
 - XFCE - Entorno grafico.
 - Steam - Programa para descargar juegos de PC.
-- Soporte para el formate ExFat.
-- Bluez - Para poder emparejar tu control de PS4.
+- Soporte para el formateo de archivos ExFat.
+- Bluez - Para poder conectar tu control de PS4.
 - Blueberry - Interfaz grafica de usuario compatible con GTK y XFCE.
 - Duckstation - Mejor emulador de Playstation 1.
-- Dolphin emulator - Nintengo Wii y emulador de GameCube.
+- Dolphin emulator - Nintendo Wii y emulador de GameCube.
 - Nano - Editor de texto.
 - Chromium - Buscador web de codigo abierto.
 - Powerlevel10k - Terminal ZSH.
@@ -43,7 +43,7 @@ Esta es una version compilada y actualizada del sistema operativeo Arch Linux co
 - BAT - Comando CAT mejorado basicamente.
 - VLC - Reproductor de video.
 - Spotify - Reproductor de musica.
-- Yay - Otro gestor de programas con el repositorio AUR escritor en Go. 
+- Yay - Otro gestor de programas con el repositorio AUR escrito en Go. 
 - Zip - Comprimir archivos a formato Zip.
 - Unzip - Descomprimir archivos de formato Zip.
 - P7zip - Version de linea de comandos de 7zip para Linux.
@@ -56,19 +56,19 @@ Un cerebro xD y mucha paciencia.
 
 - PS4 Slim
 - Sistema operativo 9.00
-- Model0 CUH-2115B.
+- Modelo CUH-2115B.
 - SouthBridge Baikal.
 
-## Si tienes el mismo modelo de Playstation 4 que yo puede usar y descargar los archivos que estan adjuntados abajo:
+## Si tienes el mismo modelo de Playstation 4 que yo puedes usar y descargar los archivos que estan adjuntados aqui abajo:
 
 - [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) MD5 >__C84AD779CE76762C04CBF80E420E324D__
 - [initramfs.cpio.gz](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/initramfs.cpio.gz) MD5 >__951549B1DEB59DAE3ADA8038461BADD2__
 - [bzImage](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bzImage) MD5 >__B8BDDA64FDED673D1FD8017C2A4B4122__
 - [arch.tar.xz](https://mega.nz/file/6ro0mZqb#uzVI3PjhxZ7m5hk4EC2AxCIg5B8h87mqEuvUEzo20Oo) MD5 >__7A997C14B2FAD0C839107A07C69FC312__
 
-# Preparando tu sisteam de PS4
+# Preparando tu sistema de PS4
 
-- Asegurate que tienes primero tu sisteam operativo con sistema operativo 9.00.
+- Asegurate que tienes primero el sistema operativo 9.00.
 - Ve a Ajustes>Sonido y pantalla>Ajustes de salida de video>
 - Resolucion cambialo a >__1080p__
 - Opcion RGB cambialo a >__Completo__
@@ -84,7 +84,7 @@ Un cerebro xD y mucha paciencia.
 
 - Formatea el USB/Discoduro 3.0 a formato Fat32. Puedes utilizar este [software.](http://ridgecrop.co.uk/index.htm?guiformat.html)
 - Copia y pega el fichero bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz a la raiz de tu USB/Discoduro 3.0.
-- :warning: Si estas usando el initramfs.cpio.gz de mi Github, este es creado por Nazky, el nombre de este Sistema operativo deberia ser arch.tar.xz :warning:
+- :warning: Si estas usando el initramfs.cpio.gz de mi Github, este es creado por Nazky, el nombre de este sistema operativo deberia ser arch.tar.xz :warning:
 - :warning: __Si estas usando el initramfs.cpio.gz del psxita team, deberias de renombrar este fichero de arch.tar.xz a psxitarch.tar.xz__ :warning:
 - El total de 4 ficheros deberian de estar en la razi de tu USB/Discoduro 3.0 bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz o psxitarch.tar.xz.
 - Abre el navegador web del PS4 y primero has el Jailbreak a tu PS4 con el Host de [Al-Azif.](https://cthugha.exploit.menu/#PS4%20(9.00))
@@ -122,13 +122,13 @@ Si ver un error como este: "mount -o ro /newroot failed" solo escribe los siguie
 
 # Cosas por incluir
 
-- RPCS3 emulator - Emuladr de PS3. (Puedes probar el AppImage que esta en la [website.](https://rpcs3.net/download)) oficial.
+- RPCS3 Emulador de PS3. (Puedes probar el AppImage que esta en la [website.](https://rpcs3.net/download)) oficial.
 - ProtonDB programa para jugar juegos de PC en Linux.
 - Nada mas, tu dime :) 
 
 # Problemas conocidos
 
-No se porque pero cada vez que inicias el sistema operativo, tienes que configurar el hora y la fecha, solo escribe los siguientes comando como 'root': 
+No se porque pero cada vez que inicias el sistema operativo, tienes que configurar la hora y la fecha, solo escribe los siguientes comando como 'root': 
 
 >__# timedatectl set-time "yyyy-MM-dd hh:mm:ss"__
 
@@ -136,12 +136,12 @@ Por ejemplo:
 
 >__# timedatectl set-time "2022-02-19 13:13:54"__
 
-Cada vez que inicies en Linux tendras que desemparejar y emparejar nueva mente tu contro de PS4.
+Cada vez que inicies en Linux tendras que desemparejar y emparejar nuevamente tu control de PS4.
 
 # Algunas preguntas frecuentes
 
-## Cual es la contrasena del usuario sony y root?
-Lo puedes encontrar en el escritorio, ahi encontratar un fichero con el nombre de 'Important.txt'.
+## Cual es la contraseña del usuario sony y root?
+Lo puedes encontrar en el escritorio, hay un fichero con el nombre de 'Important.txt'.
 
 ## Tengo pantalla negra
 Asegurate primero que tu monitor o TV soporta la resolucion de video de 1080p, si aun asi sigues teniendo el mismo problema asegurate de seguir bien los pasos o puedes intentar con otro TV o monitor.
@@ -171,7 +171,7 @@ Puedes descargar estos fichero del repositorio de [Hakkuraifu.](https://github.c
 - Me puedes seguir en [Twitter](https://twitter.com/razr2312)
 - Me puedes seguir en [YouTube](https://www.youtube.com/user/allank2312/videos)
 - Me puedes seguir en [Reddit](https://www.reddit.com/user/razr2312/)
-
+- 
 ![esta es una imagen](https://github.com/whitehax0r/ArchLinux-PS4/blob/353059a5bbb0a7f161ade53a56e374a6398d7c6a/Flag.png)
 
 ## Creditos
