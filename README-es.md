@@ -1,4 +1,7 @@
-
+- 👋 Hola, soy @whitehax0r tambien conocido como (razr2312) en Twitter
+- 👀 Estoy interesado en compartir mi pequeño conocimiento a esta gran comunidad, hablo dos idiomas español y ingles.
+- 🌱 Actualmente estudiando por mis mismo ciberseguridad para ser miembro parte del Red Team que estan mas enfocados a ataque y romper la matrix xD.
+- 📫 Como contactarme, al final de este documentacion lo encontraras.
 
 Primer Projecto de Github, orgullosamene creado por un latino 🤠
 
