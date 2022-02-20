@@ -3,7 +3,7 @@
 - 🌱 Actualmente estudiando por mis mismo ciberseguridad para ser miembro parte del Red Team que estan mas enfocados a ataque y romper la matrix xD.
 - 📫 Como contactarme, al final de este documentacion lo encontraras.
 
-Primer Projecto de Github, orgullosamene creado por un Catracho 🤠
+Primer Projecto de Github, orgullosamente Catracho 🤠
 
 # ArchLinux-PS4
 
