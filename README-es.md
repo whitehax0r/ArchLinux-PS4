@@ -193,7 +193,7 @@ Voy a subir un video despues en dos dias aproximadamente para explicarte mejor.
 Puedes buscar [aqui](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) o [aqui.](https://www.psdevwiki.com/ps4/)
 
 ## Donde puedo encontrar estos PS4 kernels y initramfs.cpio.gz de otras consolas PS4?
-Puedes descargar estos fichero del repositorio de [Hakkuraifu.](https://github.com/Hakkuraifu/PS4Linux-Documentation) en español [aqui.](https://github.com/RY0M43CH1Z3N/PS4Linux-Documentation)
+Puedes descargar estos fichero del repositorio de [Hakkuraifu](https://github.com/Hakkuraifu/PS4Linux-Documentation) en español [aqui.](https://github.com/RY0M43CH1Z3N/PS4Linux-Documentation)
 
 # Redes Sociales
 
