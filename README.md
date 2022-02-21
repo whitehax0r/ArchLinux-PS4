@@ -68,7 +68,7 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - Model CUH-2115B.
 - SouthBridge Baikal.
 
-⚠️ _If you have a different model of PS4 such as the Fat version or PS4 Pro version in the little F.A.Q you will see more details. This OS is compatible with those PS4s.Read the complete guide. ⚠️
+⚠️ If you have a PS4 Fat or PS4 Pro version in the little F.A.Q you will see more details. This OS is compatible with those PS4s.Read the complete guide. ⚠️
 
 ## If you have same PS4 hardware as me you can use these files from below:
 
