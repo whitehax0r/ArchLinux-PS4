@@ -139,18 +139,18 @@ Check first the list of time zones available typing the following command on the
 For example mine is: America/Tegucigalpa
 
 To set your time zone:
->__sudo timedatectl set-timezone Zone/SubZone
+>__sudo timedatectl set-timezone Zone/SubZone__
 
 For example in my case is: __sudo timedatectl set-timezone America/Tegucigalpa
 
 Then we will create a symbolic link to do this permanently:
->__sudo ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+>__sudo ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime__
 
-For example in my case is: __sudo ln -sf /usr/share/zoneinfo/America/Tegucigalpa /etc/localtime
+For example in my case is: __sudo ln -sf /usr/share/zoneinfo/America/Tegucigalpa /etc/localtime__
 
 Now we will be enable NTP just type this on the terminal:
 
->__sudo timedatectl set-ntp true
+>__sudo timedatectl set-ntp true__
 
 Now just wait about 25 seconds and you will see your date and time will change automatically to your zone.
 
