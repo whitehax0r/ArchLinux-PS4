@@ -129,6 +129,31 @@ If you got an error like this one: "mount -o ro /newroot failed" just type the f
 - >__exec start-psxitarch.sh__ ⚠️If you are using other initramsfs.cpio.gz file ⚠️
 - and should boot now :)
 
+## System time setup
+
+You have to do this just one time.
+
+Check first the list of time zones available typing the following command on the terminal:
+>__timedatectl list-timezones__
+
+For example mine is: America/Tegucigalpa
+
+To set your time zone:
+>__sudo timedatectl set-timezone Zone/SubZone
+
+For example in my case is: __sudo timedatectl set-timezone America/Tegucigalpa
+
+Then we will create a symbolic link to do this permanently:
+>__sudo ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+
+For example in my case is: __sudo ln -sf /usr/share/zoneinfo/America/Tegucigalpa /etc/localtime
+
+Now we will be enable NTP just type this on the terminal:
+
+>__sudo timedatectl set-ntp true
+
+Now just wait about 25 seconds and you will see your date and time will change automatically to your zone.
+
 # TODO List
 
 - RPCS3 emulator - PS3 emulator. (You can try with the AppImage in their [website.](https://rpcs3.net/download))
@@ -136,14 +161,6 @@ If you got an error like this one: "mount -o ro /newroot failed" just type the f
 - Nothing more, you tell me.
 
 # Know Issues
-
-Not sure why but every time you boot in to Linux, you have to set your current time and date, just type the following commands on terminal as root: 
-
->__# timedatectl set-time "yyyy-MM-dd hh:mm:ss"__
-
-For example:
-
->__# timedatectl set-time "2022-02-19 13:13:54"__
 
 Not sure why but every time you boot in to linux, you have to unpair and pair again your PS4 controller.
 
