@@ -68,6 +68,8 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - Model CUH-2115B.
 - SouthBridge Baikal.
 
+⚠️__If you have a different model of PS4 such as the Fat version or PS4 Pro version in the little F.A.Q you will see more details__ ⚠️
+
 ## If you have same PS4 hardware as me you can use these files from below:
 
 - [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) or [Download here](https://mega.nz/file/2qBCTJpR#CTD_nQOLFsrBMcau-KS6QitasbuVAXx_PPN22Wk2qoo) MD5 >__C84AD779CE76762C04CBF80E420E324D__
@@ -189,7 +191,7 @@ I will upload a video later.
 ## I'm not sure about my PS4 Hardware?
 You can search [here](https://www.psdevwiki.com/ps4/Southbridge#Southbridge_revisions) or [here.](https://www.psdevwiki.com/ps4/)
 
-## Where I can find those PS4 kernels and initramfs.cpio.gz for other PS4's hardware.
+## Where I can find those PS4 kernels and initramfs.cpio.gz for other PS4's hardware Fat and Pro version?
 Well you can download those files from Hakkuraifu [Github.](https://github.com/Hakkuraifu/PS4Linux-Documentation)
 
 # Social Media
