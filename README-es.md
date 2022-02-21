@@ -60,6 +60,8 @@ Un cerebro xD y mucha paciencia.
 - Modelo CUH-2115B.
 - SouthBridge Baikal.
 
+⚠️ Si tienes una PS4 Fat o PS4 Pro al final de este documento veras mas information. Lee la guia completa por favor, este sistema es compatible con estos modelos de PS4. ⚠️
+
 ## Si tienes el mismo modelo de Playstation 4 que yo puedes usar y descargar los archivos que estan adjuntados aqui abajo:
 
 - [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) o [Descarga aqui](https://mega.nz/file/2qBCTJpR#CTD_nQOLFsrBMcau-KS6QitasbuVAXx_PPN22Wk2qoo) MD5 >__C84AD779CE76762C04CBF80E420E324D__
@@ -101,6 +103,7 @@ Un cerebro xD y mucha paciencia.
 >__exec start-psxitarch.sh__
 -  :warning: __Si estas usando el initramfs.cpio.gz de Nazky escribe los siguientes comandos:__ :warning:
 >__exec start-arch.sh__
+- Espera unos 25 segundos.
 
 ## Configurando la fecha y hora del sistema
 
