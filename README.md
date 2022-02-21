@@ -110,28 +110,9 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 -  :warning: __If you use the initramfs.cpio.gz from Nazky type the following commands:__ :warning:
 >__exec start-arch.sh__
 
-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+## Changing the System Date and Time
 
-# Post installation steps
-
-- Connect your USB|HDD|SDD 3.0 to a computer and copy again the [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) file in the root of the fat32 partition.
-- Jailbreak again your PS4 with Al-Azif [host](https://cthugha.exploit.menu/#PS4%20(9.00)) or [this.](https://ithaqua.exploit.menu/#PS4%(9.00))
-- Select the 3 GB Linux payload from Sleirsgoevy [host.](https://sleirsgoevy.github.io/900-host/)
-- You will be again in the rescueshell, just type:
->__exec start-psxitarch.sh__
--  :warning: __If you use the initramfs.cpio.gz from Nazky type the following commands:__ :warning:
->__exec start-arch.sh__
-
-If you got an error like this one: "mount -o ro /newroot failed" just type the following commands:
->__mount -o ro /newroot__
-- then:
->__exec start-arch.sh__  ⚠️If your are using Nazky initramfs.cpio.gz file ⚠️
-- >__exec start-psxitarch.sh__ ⚠️If you are using other initramsfs.cpio.gz file ⚠️
-- and should boot now :)
-
-## System time setup
-
-You have to do this just one time.
+The first time you boot to ArchLinux-PS4 you have to fix the time and date.
 
 Check first the list of time zones available typing the following command on the terminal:
 >__timedatectl list-timezones__
@@ -153,6 +134,25 @@ Now we will be enable NTP just type this on the terminal:
 >__sudo timedatectl set-ntp true__
 
 Now just wait about 25 seconds and you will see your date and time will change automatically to your zone.
+
+- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Post installation steps
+
+- Connect your USB|HDD|SDD 3.0 to a computer and copy again the [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) file in the root of the fat32 partition.
+- Jailbreak again your PS4 with Al-Azif [host](https://cthugha.exploit.menu/#PS4%20(9.00)) or [this.](https://ithaqua.exploit.menu/#PS4%(9.00))
+- Select the 3 GB Linux payload from Sleirsgoevy [host.](https://sleirsgoevy.github.io/900-host/)
+- You will be again in the rescueshell, just type:
+>__exec start-psxitarch.sh__
+-  :warning: __If you use the initramfs.cpio.gz from Nazky type the following commands:__ :warning:
+>__exec start-arch.sh__
+
+If you got an error like this one: "mount -o ro /newroot failed" just type the following commands:
+>__mount -o ro /newroot__
+- then:
+>__exec start-arch.sh__  ⚠️If your are using Nazky initramfs.cpio.gz file ⚠️
+- >__exec start-psxitarch.sh__ ⚠️If you are using other initramsfs.cpio.gz file ⚠️
+- and should boot now :)
 
 # TODO List
 
