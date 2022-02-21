@@ -28,6 +28,7 @@ Esta es una version compilada y actualizada del sistema operativo Arch Linux con
 - Steam - Programa para descargar juegos de PC.
 - Soporte para el formateo de archivos ExFat.
 - Bluez - Para poder conectar tu control de PS4.
+- Flatpak - tienda de aplicaciones ya compiladas.
 - Blueberry - Interfaz grafica de usuario compatible con GTK y XFCE.
 - Duckstation - Mejor emulador de Playstation 1.
 - Dolphin emulator - Nintendo Wii y emulador de GameCube.
@@ -61,7 +62,7 @@ Un cerebro xD y mucha paciencia.
 
 ## Si tienes el mismo modelo de Playstation 4 que yo puedes usar y descargar los archivos que estan adjuntados aqui abajo:
 
-- [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) MD5 >__C84AD779CE76762C04CBF80E420E324D__
+- [bootargs.txt](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bootargs.txt) o [Descarga aqui](https://mega.nz/file/2qBCTJpR#CTD_nQOLFsrBMcau-KS6QitasbuVAXx_PPN22Wk2qoo) MD5 >__C84AD779CE76762C04CBF80E420E324D__
 - [initramfs.cpio.gz](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/initramfs.cpio.gz) MD5 >__951549B1DEB59DAE3ADA8038461BADD2__
 - [bzImage](https://github.com/whitehax0r/ArchLinux-PS4/blob/4add3a72d25dcfabff433283606b9ce30762d4d9/bzImage) MD5 >__B8BDDA64FDED673D1FD8017C2A4B4122__
 - [arch.tar.xz](https://mega.nz/file/6ro0mZqb#uzVI3PjhxZ7m5hk4EC2AxCIg5B8h87mqEuvUEzo20Oo) MD5 >__7A997C14B2FAD0C839107A07C69FC312__
