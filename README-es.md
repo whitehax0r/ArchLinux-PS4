@@ -114,7 +114,7 @@ Por ejemplo en mi caso es: America/Tegucigalpa
 Configura el tiempo de tu zona horaria:
 >__sudo timedatectl set-timezone Zone/SubZone__
 
-Por ejemplo en mi caso es: __sudo timedatectl set-timezone America/Tegucigalpa
+Por ejemplo en mi caso es: __sudo timedatectl set-timezone America/Tegucigalpa__
 
 Ahora vamos a crear un enlace simbolico para que el cambio sea permanente:
 >__sudo ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime__
