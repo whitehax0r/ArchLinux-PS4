@@ -102,6 +102,31 @@ Un cerebro xD y mucha paciencia.
 -  :warning: __Si estas usando el initramfs.cpio.gz de Nazky escribe los siguientes comandos:__ :warning:
 >__exec start-arch.sh__
 
+## Configurando la fecha y hora del sistema
+
+La primera vez que inicias en ArchLinux-PS4 tienes que configurar la fecha y hora del sistema deacuerdo a la zona donde tu vives.
+
+Primer mira las zonas horarias disponibles y escoge la zona horaria de tu area con el siguiente commando en la terminal:
+>__timedatectl list-timezones__
+
+Por ejemplo en mi caso es: America/Tegucigalpa
+
+Configura el tiempo de tu zona horaria:
+>__sudo timedatectl set-timezone Zone/SubZone__
+
+Por ejemplo en mi caso es: __sudo timedatectl set-timezone America/Tegucigalpa
+
+Ahora vamos a crear un enlace simbolico para que el cambio sea permanente:
+>__sudo ln -sf /usr/share/zoneinfo/Zone/SubZone /etc/localtime__
+
+Por ejemplo en mi caso es: __sudo ln -sf /usr/share/zoneinfo/America/Tegucigalpa /etc/localtime__
+
+Ahora vamos a habilitiar el NTP ejecutando los siguientes comandos en la terminal:
+
+>__sudo timedatectl set-ntp true__
+
+Ahora espera alrededor de 25 segundos y veras que el tiempo cambiara a tu zona horaria donde te encuentras automaticamente.
+
 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Pasos post instalacion
@@ -128,7 +153,7 @@ Si ves un error como este: "mount -o ro /newroot failed" solo escribe los siguie
 - Nada mas, tu dime :) 
 
 # Problemas conocidos
-
+<!---
 No se porque pero cada vez que inicias el sistema operativo, tienes que configurar la hora y la fecha, solo escribe los siguientes comando como 'root': 
 
 >__# timedatectl set-time "yyyy-MM-dd hh:mm:ss"__
@@ -136,7 +161,7 @@ No se porque pero cada vez que inicias el sistema operativo, tienes que configur
 Por ejemplo:
 
 >__# timedatectl set-time "2022-02-19 13:13:54"__
-
+--->
 Cada vez que inicies en Linux tendras que desemparejar y emparejar nuevamente tu control de PS4.
 
 # Algunas preguntas frecuentes
