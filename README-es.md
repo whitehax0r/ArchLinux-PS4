@@ -109,7 +109,7 @@ Un cerebro xD y mucha paciencia.
 
 La primera vez que inicias en ArchLinux-PS4 tienes que configurar la fecha y hora del sistema deacuerdo a la zona donde tu vives. Conecta tu PS4 a internet ya se por conexion al puerto Ethernet o WiFi.
 
-Primer mira las zonas horarias disponibles y escoge la zona horaria de tu area con el siguiente commando en la terminal:
+Primero mira las zonas horarias disponibles y escoge la zona horaria donde te encuentras con el siguiente commando en la terminal:
 >__timedatectl list-timezones__
 
 Por ejemplo en mi caso es: America/Tegucigalpa
