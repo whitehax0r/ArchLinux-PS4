@@ -114,7 +114,7 @@ Si ves un error como este: "mount -o ro /newroot failed" solo escribe los siguie
 
 ## Configurando la fecha y hora del sistema
 
-La primera vez que inicias en ArchLinux-PS4 tienes que configurar la fecha y hora del sistema deacuerdo a la zona donde tu vives. Conecta tu PS4 a internet ya se por conexion al puerto Ethernet o WiFi.
+La primera vez que inicias en ArchLinux-PS4 tienes que configurar la fecha y hora del sistema deacuerdo a la zona donde tu vives. :warning: Conecta tu PS4 a internet ya se por conexion al puerto Ethernet o WiFi. :warning:
 
 Primero mira las zonas horarias disponibles y escoge la zona horaria donde te encuentras con el siguiente commando en la terminal:
 >__timedatectl list-timezones__
