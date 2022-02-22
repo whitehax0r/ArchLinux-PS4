@@ -105,6 +105,13 @@ Un cerebro xD y mucha paciencia.
 >__exec start-arch.sh__
 - Espera unos 25 segundos.
 
+Si ves un error como este: "mount -o ro /newroot failed" solo escribe los siguientes comandos:
+>__mount -o ro /newroot__
+- despues:
+>__exec start-arch.sh__  ⚠️Si estas usando el fichero initramfs.cpio.gz de Nazky ⚠️
+- >__exec start-psxitarch.sh__ ⚠️Si estas usando otro fichero initramsfs.cpio.gz ⚠️
+- y deberia de arrancar sin problemas :)
+
 ## Configurando la fecha y hora del sistema
 
 La primera vez que inicias en ArchLinux-PS4 tienes que configurar la fecha y hora del sistema deacuerdo a la zona donde tu vives. Conecta tu PS4 a internet ya se por conexion al puerto Ethernet o WiFi.
@@ -129,6 +136,8 @@ Ahora vamos a habilitiar el NTP ejecutando los siguientes comandos en la termina
 >__sudo timedatectl set-ntp true__
 
 Ahora espera alrededor de 25 segundos y veras que el tiempo cambiara a tu zona horaria donde te encuentras automaticamente.
+
+Apaga la consola desde ArchLinux.
 
 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
