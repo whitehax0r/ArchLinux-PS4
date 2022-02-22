@@ -92,7 +92,7 @@ Un cerebro xD y mucha paciencia.
 - El total de 4 ficheros deberian de estar en la raiz de tu USB/Discoduro 3.0 bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz o psxitarch.tar.xz.
 - Abre el navegador web del PS4 y primero has el Jailbreak a tu PS4 con el Host de [Al-Azif.](https://cthugha.exploit.menu/#PS4%20(9.00))
 - Despues conecta tu USB/Discoduro 3.0 con todos los archivos necesarios dentro en la raiz, asegurate de conectar tu USB/Discoduro en el puerto USB que esta mas cercano a la lectora de discos del PS4.
-- Selecciona y arranca el payload 1GB Linux usando el host de tu confianza pero te recomiendo que uses [este](https://sleirsgoevy.github.io/900-host/) de [Sleirsgoevy](https://github.com/sleirsgoevy) porque este detecta el fichero bootargs.txt para evitar el problema de pantalla negrra. __He intentando varios host y ninguno detecta el fichero bootargs.txt.__
+- Selecciona y arranca el payload 1GB Linux usando el host de tu confianza pero te recomiendo que uses [este](https://sleirsgoevy.github.io/900-host/) de [Sleirsgoevy](https://github.com/sleirsgoevy) porque este detecta el fichero bootargs.txt para evitar el problema de pantalla negra. __He intentando varios host y ninguno detecta el fichero bootargs.txt.__
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 - Cuando estes en el rescueshell escribe los siguientes comandos:
