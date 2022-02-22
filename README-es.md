@@ -81,9 +81,9 @@ Un cerebro xD y mucha paciencia.
 - Desmarca la cajita "Activar enlace del dispositivo HDMI"
 - Desmarca la cajita "Activar HDCP"
 
-# Preparando tu USB|HDD|SDD 3.0 para ArchLinux-PS4
+# Preparando tu USB|HDD|SSD 3.0 para ArchLinux-PS4
 
-:warning: Altamente recomendable que uses un USB|HDD|SDD 3.0 >=16GB :warning:
+:warning: Altamente recomendable que uses un USB|HDD|SSD 3.0 >=16GB :warning:
 
 - Formatea el USB/Discoduro 3.0 a formato Fat32. Puedes utilizar este [software.](http://ridgecrop.co.uk/index.htm?guiformat.html)
 - Copia y pega el fichero bzImage, initramfs.cpio.gz, bootargs.txt y arch.tar.xz a la raiz de tu USB/Discoduro 3.0.
