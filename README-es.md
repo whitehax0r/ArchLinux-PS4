@@ -52,6 +52,9 @@ Esta es una version compilada y actualizada del sistema operativo Arch Linux con
 
 # Requerimientos obligatorios
 Un cerebro xD y mucha paciencia.
+- Un USB hub
+- Teclado y mouse USB
+- Disco duro|SSD|USB que sean 3.0
 
 # El hardware de mi Playstation 4
 
