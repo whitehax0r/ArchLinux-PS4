@@ -103,6 +103,9 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 - Launch the 1GB Linux payload using the one of your trust host but I recommend to you to use this [one](https://sleirsgoevy.github.io/900-host/) from [Sleirsgoevy](https://github.com/sleirsgoevy) because this one detects the bootargs.txt file to avoid black screen issues. __I tried with other host but did not detect the bootargs.txt file.__
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# First Linux installation
+
 - When you are on the rescueshell type the following commands:
 >__exec install-psxitarch.sh__
 - :warning: If you use the initramfs.cpio.gz from Nazky type the following commands: :warning:
@@ -111,6 +114,13 @@ This is a compiled and updated Arch linux with some minor personal changes more 
 >__exec start-psxitarch.sh__
 -  :warning: __If you use the initramfs.cpio.gz from Nazky type the following commands:__ :warning:
 >__exec start-arch.sh__
+
+If you got an error like this one: "mount -o ro /newroot failed" just type the following commands:
+>__mount -o ro /newroot__
+- then:
+>__exec start-arch.sh__  ⚠️If your are using Nazky initramfs.cpio.gz file ⚠️
+- >__exec start-psxitarch.sh__ ⚠️If you are using other initramsfs.cpio.gz file ⚠️
+- and should boot now to ArchLinux :)
 
 ## Changing the System Date and Time
 
@@ -136,6 +146,8 @@ Now we will be enable NTP just type this on the terminal:
 >__sudo timedatectl set-ntp true__
 
 Now just wait about 25 seconds and you will see your date and time will change automatically to your zone.
+
+Then you can Shutdown your PS4 from Linux
 
 - ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
