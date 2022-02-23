@@ -124,7 +124,7 @@ If you got an error like this one: "mount -o ro /newroot failed" just type the f
 
 ## Changing the System Date and Time
 
-The first time you boot to ArchLinux-PS4 you have to fix the time and date. Connect your PS4 to the internet by WiFi or Ethernet port.
+The first time you boot to ArchLinux-PS4 you have to fix the time and date. ⚠️Connect your PS4 to the internet by WiFi or Ethernet port. ⚠️
 
 Check first the list of time zones available typing the following command on the terminal:
 >__timedatectl list-timezones__
