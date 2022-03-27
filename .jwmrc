@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<JWM>
+    <StartupCommand>
+       setxkbmap de &
+       pcmanfm --desktop &
+       pasystray &
+       xset s off &
+       xset -dpms &
+       nm-applet &
+       blueman-applet
+    </StartupCommand>
+
+    <!-- The root menu. -->
+    <RootMenu onroot="12">
+        <Program icon="lxterminal.svg" label="Terminal">lxterminal</Program>
+        <Program icon="thunar.svg" label="File Manager">pcmanfm</Program>
+        <Program icon="firefox.svg" label="Web Browser">firefox</Program>
+        <Program icon="leafpad.svg" label="Text Editor">leafpad</Program>
+
+        <Separator/>
+
+        <Include>exec: xdgmenumaker -n -i -f jwm</Include>
+
+        <Separator/>
+
+        <Menu icon="accessories-character-map.svg" label="Language">
+        <Program icon="preferences-desktop-locale.svg" label="System Language">lang-config</Program>
+        <Program icon="preferences-desktop-keyboard-shortcuts.svg" label="Keyboard Layout">layout-config</Program>
+        </Menu>
+
+        <Separator/>
+
+        <Menu icon="jwm-blue.svg" label="Jwm Config">
+        <Program icon="preferences-desktop-wallpaper.svg" label="Desktop ON/OFF">no-desktop</Program>
+        <Program icon="psxita.svg" label="Config Menu">leafpad /home/psxita/.jwmrc</Program>
+        <Restart label="Refresh menu" icon="reload.svg"/>
+        </Menu>
+
+        <Separator/>
+
+        <Exit label="Logout" confirm="true" icon="system-log-out.svg"/>
+        <Program icon="system-reboot.svg" label="Return to ORBIS OS">sudo reboot</Program>
+        <Program icon="system-shut-down.svg" label="Turn off PS4">sudo poweroff</Program>
+    </RootMenu>
+
+    <!-- Tray at the bottom. -->
+    <Tray x="0" y="0" autohide="off">
+
+        <TrayButton icon="psxita.svg">root:1</TrayButton>
+  
+        <Spacer width="2"/>
+
+        <Pager labeled="true"/>
+
+        <TaskList maxwidth="256"/>
+
+        <Dock/>
+        <Clock format="%H:%M"><Button mask="123">exec:xclock</Button></Clock>
+
+    </Tray>
+
+    <!-- Visual Styles -->
+    <WindowStyle>
+        <Font>DejaVuSans-10</Font>
+        <Width>4</Width>
+        <Height>21</Height>
+        <Corner>3</Corner>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#192124</Background>
+        <Text>#CFD8DC</Text>
+        <Outline>#192124</Outline>
+        <Opacity>0.5</Opacity>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#00BCD4</Background>
+            <Text>#CFD8DC</Text>
+            <Outline>#192124</Outline>
+            <Opacity>1.0</Opacity>
+        </Active>
+    </WindowStyle>
+    <TrayStyle group="true" list="all">
+        <Font>DejaVuSans-10</Font>
+        <Background>#29353B</Background>
+        <Foreground>#FFFFFF</Foreground>
+        <Text>#CFD8DC</Text>
+        <Outline>#000000</Outline>
+        <Opacity>0.75</Opacity>
+    </TrayStyle>
+    <TaskListStyle>
+      <Font>DejaVuSans-10</Font>
+      <Active>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#00BCD4</Background>
+        <Text>#CFD8DC</Text>
+      </Active>
+      <Foreground>#FFFFFF</Foreground>
+      <Background>#222D32</Background>
+      <Text>#CFD8DC</Text>
+    </TaskListStyle>
+    <PagerStyle>
+        <Outline>#000000</Outline>
+        <Foreground>#2F3D44</Foreground>
+        <Background>#29353B</Background>
+        <Text>#CFD8DC</Text>
+        <Active>
+            <Foreground>#29353B</Foreground>
+            <Background>#00BCD4</Background>
+            <Text>#CFD8DC</Text>
+        </Active>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>DejaVuSans-9</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#29353B</Background>
+        <Outline>#000000</Outline>
+        <Text>#CFD8DC</Text>
+        <Active>
+            <Foreground>#FFFFFF</Foreground>
+            <Background>#465055</Background>
+            <Text>#CFD8DC</Text>
+        </Active>
+        <Opacity>0.85</Opacity>
+    </MenuStyle>
+    <PopupStyle>
+        <Font>DejaVuSans-10</Font>
+        <Foreground>#000000</Foreground>
+        <Background>#999999</Background>
+        <Text>#CFD8DC</Text>
+    </PopupStyle>
+
+    <!-- Path where icons can be found.
+         IconPath can be listed multiple times to allow searching
+         for icons in multiple paths.
+      -->
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/24x24/actions
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/apps     
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/categories
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/devices
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/emblems
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/emotes
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/mimetypes
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/places
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/32x32/status
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/24x24/panel
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Papirus-Dark/24x24/animations
+    </IconPath>
+    <IconPath>
+        /usr/share/jwm
+    </IconPath>
+    <IconPath>
+        $HOME/.icons/jwm
+    </IconPath>
+
+    <!-- Virtual Desktops -->
+    <!-- Desktop tags can be contained within Desktops for desktop names. -->
+    <Desktops width="4" height="1">
+    <!-- Default background. Note that a Background tag can be
+              contained within a Desktop tag to give a specific background
+              for that desktop. -->
+
+    <!-- <Background type="image">$HOME/.icons/jwm/wallpsxita.png</Background> -->  
+    </Desktops>
+   
+
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>click</FocusModel>
+
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
+
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode>opaque</MoveMode>
+
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode>opaque</ResizeMode>
+
+    <!-- Key bindings -->
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="A" key="#">desktop#</Key>
+    <Key mask="A" key="F1">root:1</Key>
+    <Key mask="A" key="F2">window</Key>
+    <Key mask="A" key="F10">maximize</Key>
+    <Key mask="A" key="Right">rdesktop</Key>
+    <Key mask="A" key="Left">ldesktop</Key>
+    <Key mask="A" key="Up">udesktop</Key>
+    <Key mask="A" key="Down">ddesktop</Key>
+
+</JWM>
